@@ -1,2 +1,4 @@
 # Discord-Modmail-Bot
-This is Advance Modmail bot in JS created by me xD
+This bot will be here in less than 4 days, so until that you can have some screenshot and details about bot.
+
+### ADVANCE MAIL SYSTEM
