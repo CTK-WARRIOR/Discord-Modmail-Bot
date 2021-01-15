@@ -19,7 +19,7 @@ client.on("channelDelete", (channel) => {
         .setAuthor("MAIL DELETED", client.user.displayAvatarURL())
         .setColor('RED')
         .setThumbnail(client.user.displayAvatarURL())
-        .setDescription("Your mail is deleted by moderator and if you have any problem with that han you can open mail again by sending message here.")
+        .setDescription("Your mail is deleted by moderator and if you have any problem with that than you can open mail again by sending message here.")
     return person.send(yembed)
     
     }
@@ -40,6 +40,11 @@ client.on("message", async message => {
           if(!message.member.hasPermission("ADMINISTRATOR")) {
               return message.channel.send("You need Admin Permissions to setup the modmail system!")
           }
+
+          if(!message.guild.me.hasPermission("ADMINISTRATOR")) {
+              return message.channel.send("Bot need Admin Permissions to setup the modmail system!")
+          }
+
 
           let role = message.guild.roles.cache.find((x) => x.name == "SUPPORTER")
           let everyone = message.guild.roles.cache.find((x) => x.name == "@everyone")
@@ -206,11 +211,11 @@ client.on("message", async message => {
   
   
   if(!message.guild) {
-      const guild = await client.guilds.cache.get(ServerID);
+      const guild = await client.guilds.cache.get(ServerID) || await client.guild.fetch(ServerID).catch(m => {})
       if(!guild) return;
-
-      const main = guild.channels.cache.find((x) => x.name == message.author.id)
       const category = guild.channels.cache.find((x) => x.name == "MODMAIL")
+      if(!category) return;
+      const main = guild.channels.cache.find((x) => x.name == message.author.id)
 
 
       if(!main) {
