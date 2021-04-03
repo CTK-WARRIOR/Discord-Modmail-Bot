@@ -24,4 +24,4 @@ ___
 
 
 # SUPPORT SERVER
-https://discord.gg/cV2ENjt
+https://withwin.in/dbd
