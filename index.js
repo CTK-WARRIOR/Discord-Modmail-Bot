@@ -23,8 +23,6 @@ client.on("channelDelete", (channel) => {
     return person.send(yembed)
     
     }
-
-
 })
 
 
@@ -170,12 +168,6 @@ client.on("message", async message => {
       }
   } 
   
-  
-  
-  
-  
-  
-  
   if(message.channel.parentID) {
 
     const category = message.guild.channels.cache.find((x) => x.name == "MODMAIL")
@@ -195,21 +187,7 @@ client.on("message", async message => {
     
     
       } 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
   if(!message.guild) {
       const guild = await client.guilds.cache.get(ServerID) || await client.guilds.fetch(ServerID).catch(m => {})
       if(!guild) return;
@@ -256,11 +234,6 @@ client.on("message", async message => {
       main.send(xembed)
 
   } 
-  
-  
-  
- 
-})
-
+ })
 
 client.login(token)
