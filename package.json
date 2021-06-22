@@ -1,12 +1,12 @@
 {
   "name": "Modmail",
   "version": "1.0.0",
-  "description": "",
+  "description": "A feature-rich Discord bot for easy communication between server staff and users.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "noede index.js"
   },
-  "keywords": [],
+  "keywords": ["discordjs"],
   "author": "",
   "license": "ISC",
   "dependencies": {
