@@ -1,27 +1,20 @@
-# Discord-Modmail-Bot
-This bot will be here in less than 4 days, so until that you can have some screenshot and details about bot.
+<a href="https://www.youtube.com/watch?v=ioLtrzJBCj4"> <img align="right" src="https://img.youtube.com/vi/ioLtrzJBCj4/0.jpg" width="150"></a>
 
+> [@Discord-Modmail-Bot](https://github.com/CTK-WARRIOR/Discord-Modmail-Bot) (A open-source bot based on discord.js):
 
-[![Create ModMail Bot From Scratch For Your Bot](https://img.youtube.com/vi/ioLtrzJBCj4/0.jpg)](https://www.youtube.com/watch?v=ioLtrzJBCj4)
+🎵 | This bot will be here in less than 4 days, so until that you can have some screenshot and details about bot.
 
-### ADVANCE MAIL SYSTEM
+### Advanced Mailing Systems
 ![](https://cdn.discordapp.com/attachments/591157769181069332/730293332797947964/unknown.png)
 ___
 
-
-### DM AUTO MAIL OPENER
+### DM Open mail automatic
 ![](https://cdn.discordapp.com/attachments/591157769181069332/730294353167253504/unknown.png)
-
-
 ___
 
-### VERY GOOD WAY TO INTRACT
+### VeryGood way to intract
 ![](https://cdn.discordapp.com/attachments/728942987748311131/730295002059767818/unknown.png)
-
 ___
 
 
-
-
-# SUPPORT SERVER
-https://withwin.in/dbd
+> [@Support Server](https://withwin.in/dbd) (Ask questions related to Discord-Modmail-Bot here.)
