@@ -4,7 +4,7 @@
   "description": "A feature-rich Discord bot for easy communication between server staff and users.",
   "main": "index.js",
   "scripts": {
-    "test": "noede index.js"
+    "test": "node index.js"
   },
   "keywords": ["discordjs"],
   "author": "",
