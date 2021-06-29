@@ -208,7 +208,8 @@ client.on("message", async message => {
 
     if (!message.guild) {
         const guild = await client.guilds.cache.get(ServerID) || await client.guilds.fetch(ServerID).catch(m => {})
-        if (!guild) return;
+        if (!guild || !guild.members.cache.some(x => x.id === message.author.id)) return;
+
         const category = guild.channels.cache.find((x) => x.name == "MODMAIL")
         if (!category) return;
         const main = guild.channels.cache.find((x) => x.name == message.author.id)
