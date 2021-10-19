@@ -1,0 +1,11 @@
+{
+    "token": "YOUR TOKEN",
+    "prefix": "?",
+    "colors": {
+        "positive": "GREEN"
+    },
+    "modmail": {
+        "server_id": "YOUR SERVER ID",
+        "role_ids": ["ROLE ID"]
+    }
+}

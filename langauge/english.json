@@ -1,0 +1,26 @@
+{
+    "startup": {
+        "PERMISSION_REQUIRED": ["Please Provide ADMINISTRATOR permission to the bot."],
+        "MISSING_ROLE_IDS": ["Please fill all the details in settings.json, watch this video if you are confused: https://some.video"],
+        "SETUP_MESSAGE_1": ["Setting up the modmail bot in the server."],
+        "SETUP_MESSAGE_2": ["Setup completed, create a new category with name 'Mod Mail'"],
+        "CONNECTED": ["{{name}} is Connected to discord, watching {{memberCount}} Members"]
+    },
+    "system": {
+        "MEMBER_NOT_FOUND": "Unable to find the member ({{member}}) in the server.",
+        "PARENT_MISSING": "Unable to get parent ID so backing up.",
+        "CHANNEL_TOPIC": "This mail is created for helping **{{member}}**",
+        "SUCCESS_EMBED": {
+            "AUTHOR": ["MAIL OPENED"],
+            "DESCRIPTION": ["Conversation is now started, you will be contacted by supporters soon :D"]
+        },
+        "DETAILS_EMBED": {
+            "AUTHOR": ["DETAILS"],
+            "DESCRIPTION": ["{{content}}"]
+        },
+        "DELETE_EMBED": {
+            "AUTHOR": ["MAIL DELETED"],
+            "DESCRIPTION": ["Your mail is deleted by moderator and if you have any problem with that than you can open mail again by sending message here."]
+        }
+    }
+}
